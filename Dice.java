@@ -16,7 +16,7 @@ public class Dice
     {
         highestRollValue = 6 * numberOfDie;
         lowestRollValue = 1 * numberOfDie;
-        Random rand = new Random();
+        Random rand = new Random(); // What does this do, Kevin?
         int rolledNumber = lowestRollValue + (int)(Math.random() 
                             * ((highestRollValue - lowestRollValue) + 1));
         this.rolledNumber = rolledNumber;
